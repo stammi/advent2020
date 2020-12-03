@@ -23,7 +23,7 @@
   (str (str/join ", " (drop-last ns)) " & " (last ns)
        " add up to '" (reduce + ns) "' and their product is '" result "'.\n") )
 
-(defn day1 [opts]
+(defn day1 [_opts]
   (let [input i/input-day1]
     (println (str "Here is the expense report for day 1:\n\n"
                   (result-to-str (day1-part1 input))
