@@ -1,4 +1,4 @@
-(ns expense.input)
+(ns advent.input)
 
 (def input-day1
   [1755
@@ -201,3 +201,4 @@
    1479
    1912
    1638])
+

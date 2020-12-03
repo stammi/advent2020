@@ -1,6 +1,6 @@
-(ns expense.report-test
+(ns advent.report-test
   (:require [clojure.test :refer :all])
-  (:require [expense.report :as sut]))
+  (:require [advent.report :as sut]))
 
 (deftest day1-test
   (testing "The examples from https://adventofcode.com/2020/day/1"

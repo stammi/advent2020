@@ -1,5 +1,5 @@
-(ns expense.report
-  (:require [expense.input :as i]
+(ns advent.report
+  (:require [advent.input :as i]
             [clojure.string :as str]))
 
 (defn day1-part1
